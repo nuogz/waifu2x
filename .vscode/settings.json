@@ -1,0 +1,11 @@
+{
+	"eslint.onIgnoredFiles": "warn",
+	"files.eol": "\n",
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": true,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"javascript.preferences.importModuleSpecifierEnding": "js"
+}
