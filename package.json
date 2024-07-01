@@ -20,9 +20,9 @@
 	"main": "./index.js",
 	"files": [
 		"index.js",
-		"types/**",
-		"locale/**",
-		"**/*.d.ts"
+		"lib/**",
+		"bases.d.ts",
+		"types/**"
 	],
 	"typings": "./types/index.d.ts",
 	"scripts": {
