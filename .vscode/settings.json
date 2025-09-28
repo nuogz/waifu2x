@@ -1,9 +1,13 @@
 {
-	"eslint.onIgnoredFiles": "warn",
-	"files.eol": "\n",
+	"explorer.fileNesting.patterns": {
+		"package.json": "pnpm-lock.yaml, pnpm-workspace.yaml, tsconfig.json, eslint.config.js, .gitignore, CHANGELOG.md, README.md, LICENSE",
+		"vite.config.js": "postcss.config.js, uno.config.js",
+		"index.js": "index.html, index.env.js, index.color.sass"
+	},
 	"editor.tabSize": 4,
 	"editor.insertSpaces": false,
 	"editor.detectIndentation": true,
+	"files.eol": "\n",
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
